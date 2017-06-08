@@ -91,7 +91,8 @@ footer {
         display: none;
     }
     
-    #header-logo h1 {
+    .logo::before {
+        content: "attr(data-name)";
         color: #eaaa7f;
     }
 }
