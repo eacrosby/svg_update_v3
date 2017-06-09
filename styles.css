@@ -141,6 +141,11 @@ nav a:hover .icon {
     fill: #eaaa7f;
 }
 
+nav a,
+.icon {
+    transition: .4s ease-in-out;
+}
+
 .logo-text {
     display: none;
 }
