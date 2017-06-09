@@ -97,40 +97,44 @@ footer {
 }
 
 .face {
-    fill: #2D3339;
+    fill: #2d3339;
 }
 
 .white-face {
-    fill: #FBFEFF;
+    fill: #fbfeff;
 }
 
 .light-eyebrows {
-    fill: #EAAA7F;
+    fill: #eaaa7f;
 }
 
 .dark-eyebrows {
-    fill: #BA8058;
+    fill: #ba8058;
 }
 
 .red-coat {
+/*    fill: #ba8058;*/
     fill: #d63b3b;
 }
 
 .fawn-coat {
-    fill: #FFDCC4;
+/*    fill: #eaaa7f;*/
+    fill: #ffdcc4;
 }
 
 .sable-coat {
+/*    fill: #844B24;*/
     fill: #635043;
 }
 
 .blacktan-coat {
+/*    fill: #52595f;*/
     fill: #171717;
 }
 
 nav li:hover {
-    fill: #EAAA7F;
-    color: #EAAA7F;
+    fill: #eaaa7f;
+    color: #eaaa7f;
 }
 
 nav a:hover {
