@@ -30,6 +30,11 @@ a {
     color: #111;
   }
 
+.icon {
+    fill: #39add1;
+    width: 13px;
+}
+
 header {
   padding-top: 10px;
 }
@@ -86,13 +91,70 @@ footer {
     width: 140px;
 }
 
-@media (max-width: 425px) {
+.dogs {
+    height: 170px;
+    width: 170px;
+}
+
+.face {
+    fill: #2D3339;
+}
+
+.white-face {
+    fill: #FBFEFF;
+}
+
+.light-eyebrows {
+    fill: #EAAA7F;
+}
+
+.dark-eyebrows {
+    fill: #BA8058;
+}
+
+.red-coat {
+    fill: #d63b3b;
+}
+
+.fawn-coat {
+    fill: #FFDCC4;
+}
+
+.sable-coat {
+    fill: #635043;
+}
+
+.blacktan-coat {
+    fill: #171717;
+}
+
+nav li:hover {
+    fill: #EAAA7F;
+    color: #EAAA7F;
+}
+
+nav a:hover {
+    color: #eaaa7f;
+}
+
+nav a:hover .icon {
+    fill: #eaaa7f;
+}
+
+.logo-text {
+    display: none;
+}
+
+@media (max-width: 424px) {
     .logo .st1 {
         display: none;
     }
     
-    .logo::before {
-        content: "attr(data-name)";
+    .logo-text {
         color: #eaaa7f;
+        margin: 0 auto;
+        display: block;
+        font-size: 2em;
+        text-transform: uppercase;
     }
 }
